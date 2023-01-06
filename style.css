@@ -60,21 +60,21 @@ nav ul li{
    
 }
 .donate-amount h3{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .amount2{
     width: 80px;
     height: 20px;
     background-color: #FFEEEE;
     color: red;
-    padding: 2px 2px 2px 0px;
+    padding: 20px 0;
     
 }
 .amount{
     width: 80px;
     height: 20px;
     background-color: #FAFAFA;
-    padding:  2px 2px 2px 0px;
+    padding: 20px 0;
     
 }
 .donate p, h2{
