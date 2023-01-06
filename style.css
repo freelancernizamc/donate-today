@@ -29,7 +29,7 @@ nav ul li{
     height: 400px;
     color: white;
     text-align: center;
-    background-image: url(images/donation2.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-image: url(images/donation1.jpg), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -56,5 +56,95 @@ nav ul li{
 .donate-amount{
     display: flex;
     justify-content: center;
-    padding-left: 10px;
+   
+}
+.donate-amount h3{
+    padding-left: 30px;
+}
+.amount2{
+    width: 50px;
+    height: 50px;
+    background-color: #FFEEEE;
+    color: red;
+    
+}
+.donate p, h2{
+    text-align: center;
+}
+.donate-plan p{
+    text-align: center;
+}
+.card-parant{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+.card{
+    width: 320px;
+    height: 250px;
+    background-color: rgba(79, 157, 166, 0.1);
+    margin: 50px auto;
+    padding-top: 10px;
+}
+.card img{
+    padding: 20px 0 10px 150px;
+}
+.card h3{
+    text-align: center;
+}
+.card p{
+    padding: 10px;
+    text-align: center;
+}
+.donate-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+}
+.side-text{
+    width:400px;
+    height: 100%;
+    padding-top: 10px;
+}
+.side-img img{
+    width: 400px;
+    height: 100%;
+}
+.blank{
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    background-color: #FFF4D6;
+    margin: 0 auto;
+}
+input{
+    padding: 10px 20px;
+}
+.input-email{
+    padding-top: 80px;
+}
+footer{
+    width: 100%;
+    height: 177px;
+    background-color: #0B0D17;
+    text-align: center;
+}
+footer h2{
+    text-align: center;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    padding-top: 50px;
+}
+footer p{
+    text-align: center;
+    color: #FFF4D6;
 }
