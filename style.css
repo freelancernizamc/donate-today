@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
+header{
+    width: 100%;
+    max-width: 1400px;
     margin-top: 10px;
+}
+nav{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 ul{
     display: flex;
@@ -26,6 +33,7 @@ nav ul li{
 }
 .hero-section{
     width: 100%;
+    max-width: 1400px;
     height: 400px;
     color: white;
     text-align: center;
@@ -87,7 +95,8 @@ nav ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     height: 400px;
     margin: 0 auto;
 }
@@ -112,12 +121,14 @@ nav ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     height: 250px;
     margin: 0 auto;
 }
 .side-text{
-    width:400px;
+    width: 100%;
+    max-width:400px;
     height: 100%;
     padding-top: 10px;
 }
@@ -126,7 +137,8 @@ nav ul li{
     height: 100%;
 }
 .blank{
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     height: 200px;
     text-align: center;
     background-color: #FFF4D6;
@@ -140,6 +152,7 @@ input{
 }
 footer{
     width: 100%;
+    max-width: 1400px;
     height: 177px;
     background-color: #0B0D17;
     text-align: center;
@@ -157,3 +170,25 @@ footer p{
     text-align: center;
     color: #FFF4D6;
 }
+/* Responsive code */
+@media only screen and (max-width:576px){
+    .card-parant{
+        flex-direction: column;
+        padding-bottom: 250px;
+    }
+    .donate-img{
+        flex-direction:column;
+        padding-top: 100px;
+    }
+    .donate-amount{
+        flex-direction: column;
+    }
+    .donate-plan{
+        text-align: justify;
+        padding-bottom: 220px;
+    }
+    .updates{
+        padding-top: 100px;
+    }
+}
+
